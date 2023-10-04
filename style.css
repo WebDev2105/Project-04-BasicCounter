@@ -1,0 +1,40 @@
+body {
+  background-color: #2827cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.counter {
+  background-color: #fff;
+  width: 250px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+.counterSpace {
+  text-align: center !important;
+}
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+/* .counterSpace {
+  display: flex;
+  padding-bottom: 50px;
+} */
+button {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+span {
+  text-align: center;
+  color: red;
+}
